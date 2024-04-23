@@ -185,7 +185,7 @@ services:
 
   ## Prometheus
   prometheus:
-    image: prom/prometheus:v2.37.1
+    image: prom/prometheus:v2.51.2
     container_name: prometheus
     restart: always
     ports:
